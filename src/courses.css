@@ -1,0 +1,329 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav_con{
+    /* box-shadow: 0 -20px 10px -20px rgba(0,0,0,0.45) inset; */
+}
+.nav_sub_con {
+    /* box-shadow: 0 -20px 10px -20px rgba(0,0,0,0.45) inset; */
+
+}
+
+.course_sub_con{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(./Group\ 162547.png);
+
+
+}
+.course_top{
+    /* background-color: aqua; */
+    width: 50%;
+    padding: 30px 0px;
+    margin-top: 70px;
+}
+.course_top button{
+    background: linear-gradient(90.35deg, #0845F9 0%, #BE40F5 100%);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    margin-top: 18px;
+
+
+}
+.course_top h1{
+    font-family: "Inter";
+font-size: 77.66px;
+font-weight: 700;
+line-height: 80px;
+color: #191D40;
+
+}
+.course_top h5{
+    color:#6F6C90;
+
+    font-family: "Inter";
+    font-size: 14.65px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 3px;
+
+}
+.course_top h6{
+    color:#6F6C90;
+
+    font-family: "Inter";
+    font-size: 14.65px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 3px;
+    
+    
+
+}
+.course_top button{
+    font-family: "Inter";
+font-size: 17.72px;
+font-weight: 700;
+line-height: 21.44px;
+color: white;
+
+}
+.course_img_con{
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:30px;
+    padding: 20px 0px;
+
+}
+.course_box{
+    background-color: rgb(253, 255, 253);
+    width: 21%;
+    text-align: left;
+    padding: 10px;
+    border-radius: 5px;
+   
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.15);
+
+}
+.course_img img{
+    width: 100%;
+    height: 200px;
+}
+.course_type{
+    width: 80%;
+}
+.course_name img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.course_img{
+    position: relative;
+}
+
+.course_img button{
+    position: absolute;
+    top:10px;
+    right:15px;
+    background: linear-gradient(90deg, #0045FF 0%, #BD29F2 100%);
+    padding: 3px 5px ;
+    border-radius: 10px;
+    border: none;
+    color: white;
+   
+    box-shadow: 0px 10px 20px 0px #00000033;
+    font-family: "Roboto";
+font-size: 12px;
+font-weight: 800;
+line-height: 16px;
+letter-spacing: 2px;
+
+
+
+
+}
+.course_name{
+    border-top: 1px solid gray;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding:20px 0px;
+    margin-top:14px;
+    padding-bottom: 5px;
+    
+}
+.course_box h5{
+    padding: 5px 0px;
+
+    font-family: "Jost";
+font-size: 18px;
+font-weight: 500;
+line-height: 25.51px;
+color: #242424;
+padding-top: 15px;
+
+}
+.course_sir{
+    padding-left: 10px;
+}
+.course_sir :nth-child(1){
+    font-family: "Outfit";
+font-size: 16px;
+font-weight: 600;
+line-height: 18px;
+}
+
+.course_sir :nth-child(2){
+    font-family: "Outfit";
+font-size: 16px;
+font-weight: 500;
+line-height: 12px;
+
+
+
+}
+
+
+@media screen and (min-width:300px) and (max-width:900px) {
+    .course_box{
+        width: 95%;
+    }
+    .course_top{
+        width: 100%;
+    }
+
+    .course_top h1 {
+        font-size: 50px;
+
+
+    }
+
+
+
+}
+.benefit_box{
+    width: 20%;
+    /* border: 2px solid black; */
+    text-align: left;
+}
+.benefit_box h5{
+    font-family: "Inter";
+font-size: 24px;
+font-weight: 700;
+line-height: 27px;
+color: #424242;
+
+}
+.benefit_box h6{
+    color: #424242;
+
+    font-family: "Inter";
+font-size: 12.89px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+
+
+}
+.benefit_sub_con{
+    /* background-color: #BD29F2; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.benefit_con h1{
+       padding: 20px 0px;
+
+       font-family: "Outfit";
+font-size: 37.97px;
+font-weight: 700;
+line-height: 47.84px;
+color: #191D40;
+
+
+}
+.future_con{
+    margin-bottom: 40px;
+}
+.future_con h1{
+    font-family: "Inter";
+font-size: 39.53px;
+font-weight: 700;
+line-height: 47.84px;
+color: #000000;
+
+}
+@media screen and (min-width:300px) and (max-width:900px) {
+    .benefit_box{
+        width: 80%;
+
+    }
+
+}
+
+.future_con span{
+    color: transparent;
+    background: linear-gradient(90deg, #2356FE 0%, #704BF9 54.5%, #C03FF3 100%);
+    background-clip:text;
+
+    font-family: "Inter";
+font-size: 39.53px;
+font-weight: 700;
+line-height: 47.84px;
+
+
+
+}
+.future_con h6{
+    font-family: "Inter";
+font-size: 19.38px;
+font-weight: 400;
+line-height: 24px;
+color:#000000;
+
+}
+.future_con button{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: linear-gradient(90.65deg, #2556FE 0%, #754AF9 53%, #C13FF3 100%);
+    color: white;
+    border: none;
+    margin-top: 20px;
+
+    font-family: "Inter";
+font-size: 18px;
+font-weight: 700;
+line-height: 21.78px;
+
+
+
+} 
+.future_con{
+    padding-top: 60px;
+    /* padding-bottom: 30px; */
+}
+
+.nav_aa a{
+    background: linear-gradient(92.97deg, #3D60D6 4.35%, #5B57BF 52.98%, #88499C 99.75%);
+    color: transparent;
+    background-clip: text;
+}
+
+.benefit_box img{
+    background-color:#EFE7FD;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.course_type_3{
+    height: 25px;
+    width: 150px;
+}
+.course_type_2{
+    height: 25px;
+    width: 250px;
+
+}
+.course_type_4{
+    height: 25px;
+    width: 250px;
+
+}
+.course_type_1{
+   
+
+}

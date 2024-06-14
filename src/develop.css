@@ -1,0 +1,242 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.develop_first_con{
+    /* background-color: coral; */
+    /* height: 100vh; */
+   
+}
+
+.develop_sub_con{
+    /* height: ; */
+    
+    /* background-color: aqua; */
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+   
+    background-image: url(./Group\ 162547.png);
+   
+}
+
+ .develop_img{
+    /* height: 30%; */
+    /* width: 80%; */
+    
+    /* background-color: brown; */
+}
+.develop_sub_con img{
+    /* height: 80%; */
+    width: 80%;
+   
+}
+
+.develop_word{
+    /* background-color: rgb(42, 165, 58); */
+    /* height:90% ; */
+    text-align: left;
+    width: 48%;
+    padding: 20px 50px;
+}
+
+.develop_word  h2{
+    padding: 20px 0px;
+    font-family: "Outfit";
+font-size: 45px;
+font-weight: 600;
+line-height: 50px;
+letter-spacing: -0.75px;
+text-align: left;
+
+}
+.develop_word h5{
+    color: #616669;
+   font-family: "Montserrat";
+   font-size: 24px;
+   font-weight: 500;
+   line-height: 45px;
+   letter-spacing: -0.75px;
+   text-align: left;
+}
+
+.develop_word h6{
+    
+    color: #1E57FF;
+    font-family: "Roboto";
+font-size: 12px;
+font-weight: 500;
+line-height: 12px;
+letter-spacing: 2px;
+
+
+}
+
+.develop_word h6::after{
+    content: " ⸻ ";
+    font-weight: bold;
+    color: #0045BC;
+
+}
+
+.develop_word h6::before{
+    content: " ⸻ ";
+    font-weight: bold;
+    color: #0045BC;
+
+}
+
+@media screen and (min-width:300px) and (max-width:1000px) {
+
+    
+   
+
+    .develop_sub_con .develop_word{
+       
+        width: 100%;
+        
+    }
+    .develop_word h6,h2{
+        text-align: center;
+    }
+    
+
+}
+
+/* explore */
+
+.explore_sub_con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: linear-gradient(90deg, #0045FF 0%, #BD29F2 100%);
+    padding: 20px 0px;
+    
+
+}
+.explore_word{
+    /* background-color: chartreuse; */
+    text-align: center;
+    width: 75%;
+    color: white;
+}
+.explore_word h5{
+    font-size: 15px;
+
+    font-family: "Quicksand";
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+text-align: center;
+
+   
+
+}
+.explore_word h2{
+    padding: 5px 0px;
+
+    font-family: "Outfit";
+font-size: 45px;
+font-weight: 600;
+line-height: 52px;
+
+
+}
+.explore_word h6{
+    padding-top: 20px;
+
+    font-family: "Roboto";
+font-size: 12px;
+font-weight: 500;
+line-height: 12px;
+letter-spacing: 2px;
+
+
+}
+
+.explore_word h6::after{
+    content: "⸻";
+    font-weight: bold;
+    color: #f5f5f7;
+
+}
+
+.explore_word h6::before{
+    content: "⸻";
+    font-weight: bold;
+    color: #f1f2f3;
+
+}
+.explore_box{
+    background-color: rgb(252, 249, 249);
+    width: 245px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 10px 0px;
+    padding-left: 37px;
+    /* padding-right: 40px; */
+    border-radius: 10px;
+    /* border: 2px solid black; */
+    
+}
+
+.explore_box img{
+   height: 40px;
+   width: 40px;
+}
+.explore_box h6{
+    padding-left: 16px;
+    font-size: large;
+    padding-top: 5px;
+
+    font-family: "Poppins";
+font-size: 16px;
+font-weight: 400;
+line-height: 19.2px;
+
+
+   
+
+}
+
+.explore_con_box{
+    /* background-color: gold; */
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    padding: 60px 0px;
+}
+@media screen and (min-width:300px) and (max-width:1000px) {
+    .explore_word{
+       
+        width: 90%;
+       
+    }
+    .develop_word h2 {
+        font-size: 33px;
+
+    }
+    .develop_word h5 {
+        font-size: 20px;
+
+    }
+
+    .explore_word h2{
+        font-size: 23px;
+    }
+    .explore_word h5{
+        font-size: 18px;
+    }
+
+
+    }

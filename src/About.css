@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.about_con{
+    /* background-color: cadetblue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* height: 90vh; */
+    flex-wrap: wrap;
+    padding: 70px 0px;
+    /* padding-top: 30px; */
+    margin-top: 50px;
+
+}
+.about_word{
+    /* background-color: brown; */
+    width: 60%;
+    /* gap: 60px; */
+    text-align: left;
+    padding: 0px 30px;
+}
+
+.about_word h6{
+    padding: 10px 0px;
+
+    font-family: "Montserrat";
+font-size: 24px;
+font-weight: 400;
+line-height: 28px;
+color: #242424;
+
+}
+.about_word h2{
+    font-family: "Outfit";
+font-size: 45px;
+font-weight: 700;
+line-height: 80px;
+color: #191D40;
+
+}
+
+.about_word  button{
+    margin-top: 50px;
+    color: white;
+    padding: 5px 15px;
+    background: linear-gradient(90.35deg, #0845F9 0%, #BE40F5 100%);
+    border: none;
+    border-radius: 5px;
+
+    font-family: "Inter";
+font-size: 17.72px;
+font-weight: 700;
+line-height: 21.44px;
+
+
+
+}
+.about_img_con{
+    width: 30%;
+    height: 50%;
+    /* background-color: rgb(243, 239, 8); */
+}
+.about_img_con img{
+    width: 80%;
+}
+.nav_aa a{
+    background: linear-gradient(92.97deg, #3D60D6 4.35%, #5B57BF 52.98%, #88499C 99.75%);
+    color: transparent;
+    background-clip: text;
+    border-bottom: 2px solid blue;
+}
+.nav_aa a:hover{
+   border: none;
+    
+}
+
+@media screen and (min-width:300px) and (max-width:900px) {
+
+    .about_con{
+        flex-wrap: wrap;
+        flex-direction: column;
+
+    }
+    .about_img_con img {
+        width: 100%;
+
+    }
+    .about_word {
+        width: 100%;
+
+    }
+
+}
+.nav_sub_con2{
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
