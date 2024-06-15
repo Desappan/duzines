@@ -279,7 +279,7 @@ function Feedback(){
                             <div className="news_box">
                                 <div className="news_img ">
                                 <img src={news2}/>
-                                <button>20 WEEKS</button>
+                                <button>12 WEEKS</button>
                              </div>
                             
                             <h3>Digital Marketing</h3>
@@ -294,7 +294,7 @@ function Feedback(){
                             <div className="news_box">
                                 <div className="news_img  news33">
                                 <img src={news3} className="news333" />
-                                <button>20 WEEKS</button>
+                                <button>18 WEEKS</button>
                              </div>
                             
                             <h3 className="new_3">Full Stack Development</h3>
